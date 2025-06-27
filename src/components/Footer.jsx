@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer style={footerStyle}>
-      <p>© {new Date().getFullYear()} Kacper Podlewski - southdev. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} southdev. All rights reserved.</p>
     </footer>
   );
 }
@@ -17,3 +17,4 @@ const footerStyle = {
   bottom: 0,
   width: '100%',
 };
+
