@@ -1,17 +1,15 @@
 import React from 'react';
-import Header from './components/Header';
-import Home from './components/Home';
-import Footer from './components/Footer';
-import './App.css';
 
-function App() {
+export default function Home() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+    <main style={mainStyle} id="home">
+      <h2>Welcome!</h2>
+      <p>This is my React-33ased home page. I’ll put some intro text here.</p>
+    </main>
   );
 }
 
-export default App;
+const mainStyle = {
+  padding: '2rem',
+  lineHeight: 1.6,
+};

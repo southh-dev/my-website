@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer style={footerStyle}>
-      <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Kacper Podlewski - southdev. All rights reserved.</p>
     </footer>
   );
 }
